@@ -1,0 +1,64 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+#name {
+  margin-bottom: 10px;
+}
+
+.serif {
+  font-family: 'Lora', serif;
+}
+
+nav {
+  padding: 0px 45px;
+}
+
+.hidden {
+  display: none;
+}
+
+#navbar-headshot {
+  border-radius: 50%;
+  height: 80px;
+}
+
+#show-more-button {
+  display: none;
+}
+
+.btm {
+  margin-bottom: 30px;
+}
+
+#hero-headshot {
+  border-radius: 50%;
+  height: 150px;
+  margin: 0 20px;
+}
+
+/* Mobile size only */
+@media (max-width: 900px) {
+  #show-more-button {
+    display: block;
+  }
+
+  nav {
+    padding: 20px;
+  }
+
+  #hero-headshot {
+    height: 100px;
+  }
+}
+
+/* Desktop size only */
+@media (min-width: 1024) {
+  nav {
+    padding: 0px 45px;
+  }
+}
